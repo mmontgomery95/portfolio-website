@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #23263a url('assets/background.jpg') center center/cover no-repeat fixed;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 48px auto;
+  background: rgba(34, 54, 60, 0.92);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(60, 90, 150, 0.12);
+  padding: 32px 24px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #2ec4b6;
+  box-shadow: 0 4px 16px rgba(46, 196, 182, 0.15);
+  margin-bottom: 16px;
+}
+
+h1 {
+  margin: 0 0 8px 0;
+  color: #2ec4b6;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+}
+
+.bio {
+  color: #e3e6fa;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.skills {
+  background: rgba(33, 150, 243, 0.15);
+  border-radius: 12px;
+  padding: 24px 18px;
+  box-shadow: 0 2px 8px rgba(46, 196, 182, 0.07);
+}
+
+.skills h2 {
+  color: #2196f3;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills li {
+  background: #2ec4b6;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(46, 196, 182, 0.09);
+  transition: background 0.2s;
+}
+
+.skills li:hover {
+  background: #2196f3;
+}
